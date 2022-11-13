@@ -1,3 +1,3 @@
 # denort_release
 
-latest version: v0.3.0
+latest version: v0.4.0
