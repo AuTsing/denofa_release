@@ -1,3 +1,3 @@
 # denort_release
 
-latest version: v0.5.0
+最新版本号: v0.6.0
