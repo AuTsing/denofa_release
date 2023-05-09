@@ -1,5 +1,37 @@
 # Denort Change Log 更新日志
 
+## [0.7.0] - 2023/05/09
+
+### Denort App v0.7.0 更新日志
+
+-   修复运行工程之前不刷新获取最新工程的问题
+-   修复横屏后屏幕参数异常的问题
+-   修复删除工程和刷新工程列表没有同步进行的问题
+-   无障碍操作参数从 `Coor` 迁移至 `Point`
+
+### DenortCore v0.4.0 更新日志
+
+-   新增模块 `Android.img` 图色模块
+    -   新增函数 `refresh` 刷新底层图片
+    -   新增函数 `refreshManually` 刷新底层图片
+    -   新增函数 `getImage` 获取底层图片 (暂未实装)
+    -   新增函数 `lock` 锁定底层图片
+    -   新增函数 `unlock` 解锁底层图片
+    -   新增函数 `compareColor` 单点比色
+    -   新增函数 `compareColors` 多点比色
+    -   新增函数 `findColor` 找单点色
+    -   新增函数 `findColors` 找多点色
+    -   新增函数 `findMultiColor` 多点找单点色
+    -   新增函数 `findMultiColors` 多点找多点色
+    -   新增类 `CompareColorOptions` 比色可选项
+    -   新增类 `FindColorOptions` 找色可选项
+-   新增类 `Android.Point` 点类
+-   更新类 `Android.Rect` 矩形类
+-   更新模块 `Android.finger.accessibility`
+    -   更新函数 `click` 函数签名
+    -   更新函数 `press` 函数签名
+    -   更新函数 `swipe` 函数签名
+
 ## [0.6.0] - 2023/05/06
 
 -   新增 WS 服务器支持截图命令
