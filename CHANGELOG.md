@@ -1,5 +1,23 @@
 # Denort Change Log 更新日志
 
+## [0.7.2] - 2023/05/11
+
+### Denort App v0.7.2 更新日志
+
+-   修复启用 WS 服务器异常时没有提示的问题
+-   修复媒体投影服务权限开关重启活动后没有同步的问题
+-   修复底部消息栏消息重叠的问题
+-   修复底部消息栏可能导致应用 ANR 的问题
+-   修复 `UiObject` 中使用的 Rect 非 JS 端 `Rect` 的问题
+-   `DenortCore` v0.4.0 -> v0.4.1
+
+### DenortCore v0.4.1 更新日志
+
+-   新增 `UiObject` 类成员函数 `getOriginId`
+-   优化 `UiSelector` 类 `toString` 可读性
+-   优化 `UiSelectorBuilder` 类 `toString` 可读性
+-   修复 `UiObject` 中使用的 `Rect` 非 JS 端 `Rect` 的问题
+
 ## [0.7.1] - 2023/05/10
 
 ### Denort App v0.7.1 更新日志
