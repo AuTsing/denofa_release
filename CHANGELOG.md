@@ -1,5 +1,30 @@
 # Denort Change Log 更新日志
 
+## [0.11.0] - 2023/09/05
+
+### Core v0.6.0
+
+-   模块 `finger` 新增以下函数
+    -   finger.accessibility.tap
+    -   finger.accessibility.swipe
+    -   finger.accessibility.dragAndDrop
+    -   finger.root.tap
+    -   finger.root.swipe
+    -   finger.root.dragAndDrop
+    -   finger.root.down
+    -   finger.root.move
+    -   finger.root.up
+    -   finger.root.multiDown
+    -   finger.root.multiMove
+    -   finger.root.multiUp
+-   模块 `io` 新增以下函数
+    -   io.root.inputText
+    -   io.root.inputKeyEvent
+
+### App v0.11.0
+
+-   核心 v0.5.0 ⇒ v0.6.0
+
 ## [0.10.0] - 2023/08/29
 
 # Denort App v0.10.0 更新日志
