@@ -1,5 +1,19 @@
 # Denort Change Log 更新日志
 
+## [0.11.1] - 2023/09/08
+
+### Core v0.6.1
+
+-   模块 `finger` 移除以下函数
+    -   finger.accessibility.click
+    -   finger.accessibility.press
+    -   finger.accessibility.swipe
+
+### App v0.11.0
+
+-   修复目标平台 31 以上运行工程会导致崩溃的问题
+-   修复目标平台 31 以上初次进入 APP 检测读写权限异常的问题
+
 ## [0.11.0] - 2023/09/05
 
 ### Core v0.6.0
