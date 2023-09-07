@@ -9,7 +9,7 @@
     -   finger.accessibility.press
     -   finger.accessibility.swipe
 
-### App v0.11.0
+### App v0.11.1
 
 -   修复目标平台 31 以上运行工程会导致崩溃的问题
 -   修复目标平台 31 以上初次进入 APP 检测读写权限异常的问题
