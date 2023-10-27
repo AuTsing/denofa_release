@@ -1,5 +1,37 @@
 # Denort Change Log 更新日志
 
+## [0.14.0] - 2023/10/28
+
+### Core v0.7.0
+
+-   新增 API `Android.Floater.Builder.setPosition`
+-   新增 API `Android.Floater.Builder.setSize`
+-   新增 API `Android.Floater.Builder.setBackgroundColor`
+-   新增 API `Android.Floater.Builder.setText`
+-   新增 API `Android.Floater.Builder.setTextColor`
+-   移除 API `Android.Floater.Builder.position`
+-   移除 API `Android.Floater.Builder.size`
+-   移除 API `Android.Floater.Builder.background`
+-   移除 API `Android.Floater.Builder.text`
+-   更新 API `Android.Floater.builder`
+-   新增 API `Android.Floater.updatePosition`
+-   新增 API `Android.Floater.updateSize`
+-   新增 API `Android.Floater.updateBackgroundColor`
+-   更新 API `Android.Floater.updateText`
+-   新增 API `Android.Floater.updateTextColor`
+-   更新 API `Android.Floater.close`
+
+### App v0.14.0
+
+-   重写 `Floater` 模块
+-   新增工程类型 `Lib` 库类型
+-   修复使用插件运行正在运行的工程会导致工程状态异常的问题
+-   移除 JNI 接口 `Img.refeshManually`
+-   更新 JNI 接口 `Img.refesh` 函数签名
+-   修复使用插件上传工程时不更新库类型工程的问题
+-   修复首次使用插件上传工程时反馈错误信息的问题
+-   修复悬浮窗类 `Floater` 生成位置不在左上角的问题
+
 ## [0.13.1] - 2023/10/24
 
 ### App v0.13.1
