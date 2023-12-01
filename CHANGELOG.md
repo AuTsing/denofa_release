@@ -40,6 +40,8 @@
 -   新增 API `Android.QuickUiBuilder.addInput`
 -   新增 API `Android.QuickUiBuilder.addText`
 -   新增 API `Android.QuickUiBuilder.build`
+-   修复 API `Android.Floater.toString` 异常的问题
+-   修复 API `Android.FloaterBuilder.toString` 异常的问题
 
 ## [0.14.1] - 2023/11/24
 
