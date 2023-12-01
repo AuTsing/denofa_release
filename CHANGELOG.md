@@ -1,5 +1,46 @@
 # Denort Change Log 更新日志
 
+## [0.15.0] - 2023/12/01
+
+### App v0.15.0
+
+-   优化 悬浮窗性能提升
+-   更新 应用高清图标
+-   更新 悬浮窗高清图标
+-   更新 状态栏高清图标
+-   更新 悬浮窗菜单质感提升
+-   更新 分析布局页面清晰度提升
+-   更新 分析布局详情页面质感提升
+-   更新 核心 v0.7.0 更新至 v0.8.0
+
+### Core v0.8.0
+
+-   更新 API `Android.Floater.build`
+-   新增 API `Android.FloaterBuilder.show`
+-   更新 API `Android.FloaterBuilder.close`
+-   新增 类 `Android.QuickUi`
+-   新增 类 `Android.QuickUiBuilder`
+-   新增 类 `Android.QuickUiResult`
+-   新增 类 `Android.QuickUiSelectOptions`
+-   新增 类 `Android.QuickUiSwitchOptions`
+-   新增 类 `Android.QuickUiCheckboxOptions`
+-   新增 类 `Android.QuickUiInputOptions`
+-   新增 类 `Android.QuickUiTextOptions`
+-   新增 API `Android.QuickUi.builder`
+-   新增 API `Android.QuickUi.show`
+-   新增 API `Android.QuickUi.getResult`
+-   新增 API `Android.QuickUi.waitForResult`
+-   新增 API `Android.QuickUiBuilder.setTitle`
+-   新增 API `Android.QuickUiBuilder.setOkText`
+-   新增 API `Android.QuickUiBuilder.setCancelText`
+-   新增 API `Android.QuickUiBuilder.setCountDownTime`
+-   新增 API `Android.QuickUiBuilder.addSelect`
+-   新增 API `Android.QuickUiBuilder.addSwitch`
+-   新增 API `Android.QuickUiBuilder.addCheckbox`
+-   新增 API `Android.QuickUiBuilder.addInput`
+-   新增 API `Android.QuickUiBuilder.addText`
+-   新增 API `Android.QuickUiBuilder.build`
+
 ## [0.14.1] - 2023/11/24
 
 ### App v0.14.1
