@@ -1,5 +1,16 @@
 # Denort Change Log 更新日志
 
+## [0.15.1] - 2023/12/05
+
+### App v0.15.1
+
+-   更新 核心 v0.8.0 更新至 v0.8.1
+
+### Core v0.8.1
+
+-   新增 字段 `Android.Floater.id`
+-   新增 字段 `Android.QuickUi.id`
+
 ## [0.15.0] - 2023/12/01
 
 ### App v0.15.0
