@@ -1,5 +1,26 @@
 # Denort Change Log 更新日志
 
+## [0.16.0] - 2023/12/11
+
+### App v0.16.0
+
+-   修复 `QuickUi` `Checkbox` 显示异常的问题
+-   修复 加载部分图标资源时会导致报错的问题
+-   更新 核心 v0.8.1 更新至 v0.9.0
+
+### Core v0.9.0
+
+-   更新 类 `Android.QuickUiBuilder` 易用性提升
+-   更新 类 `Android.io.Notification` 易用性提升
+-   更新 方法 `Android.io.notification` 易用性提升
+-   更新 类 `Android.Point` 易用性提升
+-   更新 类 `Android.Rect` 易用性提升
+-   更新 模块 `Android.img` 易用性提升
+-   更新 模块 `Android.finger` 易用性提升
+-   修复 运行 HTTPS 模块时导致应用崩溃的问题
+-   优化 核心稳定性提升
+-   优化 日志输出性能
+
 ## [0.15.1] - 2023/12/05
 
 ### App v0.15.1
