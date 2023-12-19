@@ -1,5 +1,24 @@
 # Denort Change Log 更新日志
 
+## [0.17.0] - 2023/12/20
+
+### App v0.17.0
+
+-   优化 root 的实现方式
+-   优化 运行时的当前路径自动切换到工程文件夹
+-   更新 核心 v0.9.0 更新至 v0.10.0
+
+### Core v0.10.0
+
+-   新增 模块 `Android.shell`
+-   新增 类 `Android.shell.Sheller`
+-   新增 类 `Android.shell.ShellerResult`
+-   新增 常量 `Android.shell.ShellerCategory`
+-   新增 方法 `Android.app.getRunningPackages`
+-   新增 方法 `Android.app.getRunningApps`
+-   修复 部分类的导出
+-   优化 非首次运行效率
+
 ## [0.16.1] - 2023/12/12
 
 ### App v0.16.1
