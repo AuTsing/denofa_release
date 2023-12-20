@@ -1,5 +1,18 @@
 # Denort Change Log 更新日志
 
+## [0.17.1] - 2023/12/21
+
+### App v0.17.1
+
+-   修复 `QuickUi` 开启过程中停止脚本会导致内存泄漏的问题
+-   更新 核心 由 v0.10.0 更新至 v0.10.1
+
+### Core v0.10.1
+
+-   修复 方法 `Android.img.compareColors` 和预期不一致的问题
+-   修复 方法 `Android.img.findMultiColor` 和预期不一致的问题
+-   修复 方法 `Android.img.findMultiColors` 和预期不一致的问题
+
 ## [0.17.0] - 2023/12/20
 
 ### App v0.17.0
