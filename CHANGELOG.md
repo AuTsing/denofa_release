@@ -1,5 +1,21 @@
 # Denort Change Log 更新日志
 
+## [0.17.2] - 2023/12/24
+
+### App v0.17.2
+
+-   优化 文件输出输入的性能
+-   更新 核心 由 v0.10.1 更新至 v0.10.2
+
+### Core v0.10.2
+
+-   新增 方法 `Android.app.stopPackage`
+-   新增 方法 `Android.app.stopApp`
+-   新增 方法 `Android.app.installPackage`
+-   新增 方法 `Android.app.uninstallPackage`
+-   新增 方法 `Android.app.uninstallApp`
+-   优化 模块 `Android.app` 需要 超级用户 权限以获得更稳定的输入输出
+
 ## [0.17.1] - 2023/12/21
 
 ### App v0.17.1
