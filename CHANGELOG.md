@@ -1,5 +1,22 @@
 # Denort Change Log 更新日志
 
+## [0.17.6] - 2024/02/08
+
+### App v0.17.6
+
+-   更新 核心 由 v0.10.2 更新至 v0.10.3
+
+### Core v0.10.3
+
+-   更新 方法 `Android.img.compareColor`
+-   更新 方法 `Android.img.compareColors`
+-   更新 方法 `Android.img.findColor`
+-   更新 方法 `Android.img.findColors`
+-   更新 方法 `Android.img.findMultiColor`
+-   更新 方法 `Android.img.findMultiColors`
+-   新增 方法 `Android.Point.isPointData`
+-   新增 方法 `Android.Rect.isRectData`
+
 ## [0.17.5] - 2024/02/02
 
 -   新增 `存储空间` `通知` 权限设置项
