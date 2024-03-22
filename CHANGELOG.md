@@ -1,4 +1,26 @@
-# Denort Change Log 更新日志
+# Denofa Change Log 更新日志
+
+## [0.19.0] -2024/03/22
+
+### App v0.19.0
+
+-   APP 名更新 `Denort` => `Denofa`
+-   APP 包名更新 `com.atstudio.denort` => `com.autsing.denofa`
+-   APP 主目录名更新 `.../Denort` => `.../Denofa`
+-   核心更新 **DenofaCore** `v0.10.3` => `v0.11.0`
+-   依赖更新 **OpenCV** `v4.7.0` => `v4.9.0`
+-   更新 **Ftp 服务器** 实现迁移至 Apache FtpServer
+-   优化 降低运行时默认通知消息的提示等级
+-   新增 关于页面多个项目
+-   新增 关于页面项目支持跳转到其主页
+
+### Core v0.11.0
+
+-   核心名更新 `DenortCore` => `DenofaCore`
+-   版本更新 **Deno** `v1.31.3` => `v1.39.4`
+-   版本更新 **V8** `v11.0.226.19` => `v12.0.267.8`
+-   版本更新 **TypeScript** `v4.9.4` => `v5.3.3`
+-   [API](https://github.com/AuTsing/denofa_types) 更新
 
 ## [0.18.0] - 2024/03/01
 
