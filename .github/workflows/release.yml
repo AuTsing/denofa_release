@@ -1,0 +1,29 @@
+name: Release
+
+on:
+    push:
+        tags:
+            - 'v*.*.*'
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: Get Tag Name
+              id: tag_name
+              shell: bash
+              run: |
+                  echo "version=$(echo ${GITHUB_REF#refs/tags/v})" >> $GITHUB_OUTPUT
+            - name: Read Changelog
+              id: read_changelog
+              uses: mindsers/changelog-reader-action@v2
+              with:
+                  version: ${{ steps.tag_name.outputs.version }}
+            - name: Release
+              uses: softprops/action-gh-release@v2
+              with:
+                  body: |
+                      ## [${{ steps.read_changelog.outputs.version }}]
+                      ${{ steps.read_changelog.outputs.changes }}
