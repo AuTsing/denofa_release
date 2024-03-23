@@ -25,5 +25,5 @@ jobs:
               uses: softprops/action-gh-release@v2
               with:
                   body: |
-                      ## [${{ steps.read_changelog.outputs.version }}]
+                      ## Denofa v${{ steps.read_changelog.outputs.version }}\n
                       ${{ steps.read_changelog.outputs.changes }}
