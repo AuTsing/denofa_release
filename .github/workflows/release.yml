@@ -3,7 +3,7 @@ name: Release
 on:
     push:
         tags:
-            - 'v*.*.*'
+            - "v*.*.*"
 
 jobs:
     build:
@@ -25,5 +25,5 @@ jobs:
               uses: softprops/action-gh-release@v2
               with:
                   body: |
-                      ## Denofa v${{ steps.read_changelog.outputs.version }}\n
+                      ## Denofa v${{ steps.read_changelog.outputs.version }}
                       ${{ steps.read_changelog.outputs.changes }}
