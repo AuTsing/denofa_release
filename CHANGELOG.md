@@ -1,5 +1,18 @@
 # Denofa Change Log 更新日志
 
+## [0.21.0] - 2024-04-13
+
+### App v0.21.0
+
+-   核心更新 **DenofaCore** `v0.11.4` => `v0.12.0`
+-   新增 Shizuku 权限设置项
+-   优化 权限设置项点击性能，防止多次申请权限
+-   修复 权限申请失败时恢复为默认关闭状态
+
+### Core v0.12.0
+
+-   [API](https://github.com/AuTsing/denofa_types) 更新
+
 ## [0.20.1] - 2024-04-09
 
 ### App v0.20.1
