@@ -4,8 +4,14 @@
 
 ### App v0.22.3
 
--   优化 APP 通知信息
+-   核心更新 **DenofaCore** `v0.12.0` => `v0.12.3`
+-   优化 APP 通知信息的文本信息
+-   优化 通知分组的显示情况
 -   修复 部分情况下 WS 服务器和 FTP 服务器 IP 信息缺失的问题
+
+### Core v0.12.3
+
+-   [API](https://github.com/AuTsing/denofa_types) 更新
 
 ## [0.22.2] - 2024-04-23
 
