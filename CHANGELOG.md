@@ -1,5 +1,19 @@
 # Denofa Change Log 更新日志
 
+## [1.2.0] - 2024-05-24
+
+### App v1.2.0
+
+-   核心更新 **DenofaCore** `v0.12.8` => `v0.12.9`
+-   新增 功能 Deno 任务
+-   优化 工作目录修改至应用目录
+-   优化 运行状态条位置
+
+### Core v0.12.9
+
+-   [API](https://github.com/AuTsing/denofa_types) 更新
+-   新增支持 deno task 子命令支持
+
 ## [1.1.1] - 2024-05-21
 
 ### App v1.1.1
