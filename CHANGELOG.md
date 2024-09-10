@@ -1,5 +1,18 @@
 # Denofa Change Log 更新日志
 
+## [1.5.0] - 2024-09-11
+
+### App v1.5.0
+
+-   核心更新 **DenofaCore** `v0.12.9` => `v0.13.1`
+-   修复自动开启媒体投影权限时首个获取到的图片可能是一个像素点的问题
+
+### Core v0.13.1
+
+-   **Deno** 升级 `v1.39.4` => `v1.44.4`
+-   [API](https://github.com/AuTsing/denofa_types) 更新
+    -   Android.img.saveImage 现在可以自定义文件名、路径和区域
+
 ## [1.3.0] - 2024-08-08
 
 ### App v1.3.0
