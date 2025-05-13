@@ -1,5 +1,17 @@
 # Denofa Change Log 更新日志
 
+## [1.8.2] - 2025-05-14
+
+-   核心更新 **DenofaCore** `v0.14.2` => `v0.14.4`
+-   新增模块 `Android.ai`
+-   新增类 `Android.Model`
+-   新增枚举类 `Android.ai.backend`
+-   新增枚举类 `Android.ai.target`
+-   新增接口 `Android.DetectResult`
+-   新增接口 `Android.RecognizeResult`
+-   新增 7 个 `Android.ai` API
+-   新增 8 个 `Android.Model` API
+
 ## [1.8.1] - 2025-05-01
 
 -   核心更新 **DenofaCore** `v0.14.1` => `v0.14.2`
